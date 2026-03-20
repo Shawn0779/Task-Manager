@@ -20,7 +20,7 @@ A calendar-based task management app for teams. Built with React, TypeScript, an
 1. **Clone the repository**
 
    ```bash
-   git clone <repo-url>
+   git clone <https://github.com/Shawn0779/Task-Manager.git>
    cd Task-Manager
    ```
 
