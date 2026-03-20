@@ -1,0 +1,147 @@
+.container {
+  position: relative;
+  width: 280px;
+}
+
+.inputWrap {
+  display: flex;
+  align-items: center;
+  background: #f2f2f7;
+  border-radius: 8px;
+  padding: 0 10px;
+  gap: 6px;
+  border: 1.5px solid transparent;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.inputWrap:focus-within {
+  background: #fff;
+  border-color: #0071e3;
+}
+
+.icon {
+  font-size: 16px;
+  color: #8e8e93;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 14px;
+  color: #1c1c1e;
+  height: 32px;
+}
+
+.input::placeholder {
+  color: #aeaeb2;
+}
+
+.clear {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #aeaeb2;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.clear:hover {
+  color: #636366;
+}
+
+.dropdown {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 28px rgba(0, 0, 0, 0.16);
+  overflow: hidden;
+  z-index: 500;
+}
+
+.empty {
+  padding: 14px 16px;
+  font-size: 14px;
+  color: #aeaeb2;
+  text-align: center;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  cursor: pointer;
+  border-bottom: 1px solid #f2f2f7;
+}
+
+.result:last-child {
+  border-bottom: none;
+}
+
+.result.active {
+  background: #f2f2f7;
+}
+
+.statusDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1c1c1e;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.meta {
+  font-size: 12px;
+  color: #8e8e93;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.recur {
+  font-size: 11px;
+  color: #0071e3;
+}
+
+.avatars {
+  display: flex;
+  gap: 3px;
+  flex-shrink: 0;
+}
+
+.avatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 9px;
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

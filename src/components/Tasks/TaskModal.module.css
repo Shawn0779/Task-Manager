@@ -1,0 +1,164 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #636366;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.input {
+  border: 1px solid #d1d1d6;
+  border-radius: 7px;
+  padding: 8px 10px;
+  font-size: 14px;
+  outline: none;
+  background: #fff;
+}
+
+.input:focus {
+  border-color: #0071e3;
+  box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.15);
+}
+
+.textarea {
+  border: 1px solid #d1d1d6;
+  border-radius: 7px;
+  padding: 8px 10px;
+  font-size: 14px;
+  outline: none;
+  resize: vertical;
+  font-family: inherit;
+  background: #fff;
+}
+
+.textarea:focus {
+  border-color: #0071e3;
+  box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.15);
+}
+
+.select {
+  border: 1px solid #d1d1d6;
+  border-radius: 7px;
+  padding: 8px 10px;
+  font-size: 14px;
+  outline: none;
+  background: #fff;
+  cursor: pointer;
+}
+
+.select:focus {
+  border-color: #0071e3;
+}
+
+.twoCol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  padding-top: 12px;
+  border-top: 1px solid #e8e8e8;
+}
+
+.deleteBtn {
+  background: none;
+  border: 1px solid #ff3b30;
+  border-radius: 7px;
+  padding: 8px 14px;
+  font-size: 13px;
+  color: #ff3b30;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: auto;
+}
+
+.deleteBtn:hover {
+  background: #fff2f1;
+}
+
+.cancelBtn {
+  background: none;
+  border: 1px solid #d1d1d6;
+  border-radius: 7px;
+  padding: 8px 14px;
+  font-size: 13px;
+  color: #636366;
+  cursor: pointer;
+}
+
+.cancelBtn:hover {
+  background: #f2f2f7;
+}
+
+.saveBtn {
+  background: #0071e3;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 8px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.saveBtn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.saveBtn:not(:disabled):hover {
+  background: #0077ed;
+}
+
+/* Recurring prompt */
+.recurringPrompt {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.promptText {
+  font-size: 15px;
+  color: #1c1c1e;
+  text-align: center;
+  margin: 0;
+}
+
+.promptBtns {
+  display: flex;
+  gap: 10px;
+}
+
+.promptBtn {
+  border: 1.5px solid #0071e3;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #0071e3;
+  background: #fff;
+  cursor: pointer;
+}
+
+.promptBtn:hover {
+  background: #e8f0fe;
+}

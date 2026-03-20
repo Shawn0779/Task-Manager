@@ -1,0 +1,73 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: hidden;
+}
+
+.dateHeading {
+  padding: 20px 28px 12px;
+  border-bottom: 1px solid #e0e0e5;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.dateHeading.today .label {
+  color: #0071e3;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1c1c1e;
+}
+
+.todayBadge {
+  background: #0071e3;
+  color: #fff;
+  border-radius: 10px;
+  padding: 2px 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.body {
+  flex: 1;
+  overflow-y: auto;
+  cursor: pointer;
+  padding: 16px 28px;
+}
+
+.body:hover {
+  background: #f9f9fb;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 600px;
+}
+
+.empty {
+  color: #aeaeb2;
+  font-size: 15px;
+  font-style: italic;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.addMore {
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 13px;
+  color: #0071e3;
+  cursor: pointer;
+  padding: 4px 0;
+}
+
+.addMore:hover {
+  text-decoration: underline;
+}

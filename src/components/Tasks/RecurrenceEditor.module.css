@@ -1,0 +1,104 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #1c1c1e;
+  font-weight: 500;
+}
+
+.toggle input[type='checkbox'] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: #0071e3;
+}
+
+.controls {
+  background: #f5f5f7;
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.label {
+  font-size: 13px;
+  color: #636366;
+  width: 70px;
+  flex-shrink: 0;
+}
+
+.select {
+  border: 1px solid #d1d1d6;
+  border-radius: 6px;
+  padding: 5px 8px;
+  font-size: 13px;
+  background: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+.select:focus {
+  border-color: #0071e3;
+}
+
+.numInput {
+  border: 1px solid #d1d1d6;
+  border-radius: 6px;
+  padding: 5px 8px;
+  font-size: 13px;
+  width: 60px;
+  text-align: center;
+  outline: none;
+}
+
+.numInput:focus {
+  border-color: #0071e3;
+}
+
+.unit {
+  font-size: 13px;
+  color: #636366;
+}
+
+.dateInput {
+  border: 1px solid #d1d1d6;
+  border-radius: 6px;
+  padding: 5px 8px;
+  font-size: 13px;
+  outline: none;
+  background: #fff;
+}
+
+.dateInput:focus {
+  border-color: #0071e3;
+}
+
+.clearEnd {
+  background: none;
+  border: 1px solid #d1d1d6;
+  border-radius: 5px;
+  padding: 4px 8px;
+  font-size: 12px;
+  cursor: pointer;
+  color: #636366;
+}
+
+.clearEnd:hover {
+  background: #e5e5ea;
+}
